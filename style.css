@@ -19,6 +19,8 @@ body {
 .background-buildings {
     width: 100%;
     height: 100%;
+    position: absolute;
+    top: 0;
     display: flex;
     align-items: flex-end;
     justify-content: space-evenly;
@@ -35,7 +37,7 @@ body {
 .bb1a {
     width: 70%;
     height: 10%;
-    background-color:  var(--building-color1);
+    background-color: var(--building-color1);
 }
 
 .bb1b {
@@ -72,4 +74,47 @@ body {
     width: 11%;
     height: 58%;
     background-color: var(--building-color4);
+}
+
+.foreground-buildings {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.background-buildings, .foreground-buildings {
+    position: absolute;
+     top: 0;
+ }
+
+.fb1 {
+    width: 10%;
+    height: 60%;
+}
+
+.fb2 {
+    width: 10%;
+    height: 40%;
+}
+
+.fb3 {
+    width: 10%;
+    height: 35%;
+}
+
+.fb4 {
+    width: 8%;
+    height: 45%;
+}
+
+.fb5 {
+    width: 10%;
+    height: 33%;
+}
+
+.fb6 {
+    width: 9%;
+    height: 38%;
 }
